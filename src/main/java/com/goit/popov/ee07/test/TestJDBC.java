@@ -1,4 +1,4 @@
-package com.goit.popov.ee07;
+package com.goit.popov.ee07.test;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
