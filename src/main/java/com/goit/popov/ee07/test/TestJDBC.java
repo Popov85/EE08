@@ -19,7 +19,7 @@ public class TestJDBC {
                 String password = "dT09Rx06";
                 try (Connection connection = DriverManager.getConnection(url, user, password);
                         Statement statement = connection.createStatement()){
-                        String sql = "SELECT * from employee where age=30";
+                        String sql = "SELECT * from employee";
                         ResultSet resultSet = statement.executeQuery(sql);
                         while (resultSet.next()) {
                                 System.out.println("id: "+resultSet.getInt("ID"));
